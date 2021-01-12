@@ -1,0 +1,99 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNFzCTAtp6bv+T8O5d5cfq9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vic109260021/compytational-Tinking/blob/master/101010\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rv89W26Uklpo",
+        "outputId": "7e0d058f-2dee-4886-bf47-b3f71348a898"
+      },
+      "source": [
+        "mood=input(\"嗨囉!好久不見.最近過得好嗎?\")\r\n",
+        "print(\"真的嘛?那我們應該多出來聚聚的\")\r\n",
+        "breakfast = int(input(\"肚子好餓喔!要不要吃早餐啊?餓的程度1~10你打幾分\"))\r\n",
+        "if breakfast>=5:\r\n",
+        "  print(\"最近有新開的中式早餐诶!要去吃看看嗎?\")\r\n",
+        "if breakfast<5:\r\n",
+        "  print(\"不管.我餓了!我們去吃早餐拉!\")  \r\n",
+        "menudrink=[\"可樂.奶茶.紅茶,咖啡\"]  \r\n",
+        "menumeals=[\"1號餐.2號餐.3號餐\"]\r\n",
+        "Waiter = int(input(\"請問你們幾位呢?\"))\r\n",
+        "print(\"這邊請坐.等下會有人為您服務\")\r\n",
+        "print(\"他們有什麼吃得跟喝的阿?\")\r\n",
+        "print(\"我們吃的有\",menumeals)\r\n",
+        "print(\"我們喝的有\",menudrink)\r\n",
+        "drink= int(input(\"請問妳們要喝什麼呢?\"))\r\n",
+        "tastydrink=[\"可樂\",\"奶茶\",\"紅茶\"]\r\n",
+        "for i in tastydrink:\r\n",
+        "  print(\"我想點\",i)\r\n",
+        "meals= int(input(\"那你們要吃幾號餐呢?\"))\r\n",
+        "if meals==1:\r\n",
+        "  A=50\r\n",
+        "  for i in range(0,2,1):\r\n",
+        "    print(\"真巧,我也想吃這個\")\r\n",
+        "else:\r\n",
+        "  A=60\r\n",
+        "  print(\"蛤,我比較想吃1號餐\")  \r\n",
+        "  for i in range(0,2,1):\r\n",
+        "       print(\"我也是\")\r\n",
+        "total=A+190       \r\n",
+        "print(\"好的,一共是\",total)\r\n",
+        "print(\"謝謝光臨,歡迎下次再來\")"
+      ],
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "嗨囉!好久不見.最近過得好嗎?0\n",
+            "真的嘛?那我們應該多出來聚聚的\n",
+            "肚子好餓喔!要不要吃早餐啊?餓的程度1~10你打幾分0\n",
+            "不管.我餓了!我們去吃早餐拉!\n",
+            "請問你們幾位呢?0\n",
+            "這邊請坐.等下會有人為您服務\n",
+            "他們有什麼吃得跟喝的阿?\n",
+            "我們吃的有 ['1號餐.2號餐.3號餐']\n",
+            "我們喝的有 ['可樂.奶茶.紅茶,咖啡']\n",
+            "請問妳們要喝什麼呢?0\n",
+            "我想喝 可樂\n",
+            "我想喝 奶茶\n",
+            "我想喝 紅茶\n",
+            "那你們要吃幾號餐呢?0\n",
+            "蛤,我比較想吃1號餐\n",
+            "+1\n",
+            "+1\n",
+            "好的,一共是 250\n",
+            "謝謝光臨,歡迎下次再來\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
